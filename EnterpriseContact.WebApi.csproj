@@ -256,16 +256,6 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EnterpriseContact.Domain\EnterpriseContact.Domain.csproj">
-      <Project>{A6563E4D-1057-4900-A90B-A0694186E6CE}</Project>
-      <Name>EnterpriseContact.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EnterpriseContact.Infra.Repositories\EnterpriseContact.Infra.Repositories.csproj">
-      <Project>{9735B421-5617-4B43-9D71-CA23E8F2458A}</Project>
-      <Name>EnterpriseContact.Infra.Repositories</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
